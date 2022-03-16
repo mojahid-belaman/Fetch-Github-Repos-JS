@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.repo-container {
+    width: 900px;
+    margin: 50px auto;
+    background-color: #EEE;
+}
+
+.repo-container .set-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.repo-container .set-user input {
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    border-color: #4dabf5;
+    outline: none;
+    border-radius: 7px;
+}
+
+.repo-container .set-user input:focus {
+    border-color: #2196f3;
+}
+
+.repo-container .set-user .btn-get {
+    background-color: #0276aa;
+    color: #FFF;
+    font-size: 17px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.repo-container .set-user .btn-get:hover {
+    background-color: #2196f3;
+}
+
+.repo-container .show-data {
+    padding: 15px;
+}
